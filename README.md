@@ -21,3 +21,16 @@ revol.util: The borrower's revolving line utilization rate (the amount of the cr
 inq.last.6mths: The borrower's number of inquiries by creditors in the last 6 months.
 delinq.2yrs: The number of times the borrower had been 30+ days past due on a payment in the past 2 years.
 pub.rec: The borrower's number of derogatory public records (bankruptcy filings, tax liens, or judgments).
+
+
+# Tree Methods using PySpark
+  
+A dog food company is trying to predict why some batches of their dog food are spoiling much quicker than intended! Unfortunately this Dog Food company hasn't upgraded to the latest machinery, meaning that the amounts of the five preservative chemicals they are using can vary a lot, but which is the chemical that has the strongest effect? The dog food company first mixes up a batch of preservative that contains 4 different preservative chemicals (A,B,C,D) and then is completed with a "filler" chemical. The food scientists beelive one of the A,B,C, or D preservatives is causing the problem,
+  
+Using Machine Learning with RF to find out which parameter had the most predicitive power, thus finding out which chemical causes the early spoiling! So creating a model and then find out how to can decide which chemical is the problem!
+  
+Pres_A : Percentage of preservative A in the mix  
+Pres_B : Percentage of preservative B in the mix  
+Pres_C : Percentage of preservative C in the mix  
+Pres_D : Percentage of preservative D in the mix  
+Spoiled: Label indicating whether or not the dog food batch was spoiled.
